@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "My Website" },
+      { name: "description", content: "Awah Michael Support Site is a customer support portfolio website showcasing services and achievements." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "My Website" },
+      { property: "og:description", content: "Awah Michael Support Site is a customer support portfolio website showcasing services and achievements." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "My Website" },
+      { name: "twitter:description", content: "Awah Michael Support Site is a customer support portfolio website showcasing services and achievements." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d46d7767-c3d5-4fae-814b-17bc9ab0b3be/id-preview-63f7d53f--ec18ade3-4552-483a-8c48-fa1389970209.lovable.app-1780817573198.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d46d7767-c3d5-4fae-814b-17bc9ab0b3be/id-preview-63f7d53f--ec18ade3-4552-483a-8c48-fa1389970209.lovable.app-1780817573198.png" },
     ],
     links: [
       {
