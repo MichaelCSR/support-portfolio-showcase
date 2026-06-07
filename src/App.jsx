@@ -542,7 +542,7 @@ function Nav() {
     window.addEventListener("scroll", h);
     return () => window.removeEventListener("scroll", h);
   }, []);
-  const links = ["About","Tools","Projects","Featured","Experience","Contact"];
+  const links = ["About","Tools","Projects","Featured","Experience","Awards","Contact"];
   const go = (id) => {
     document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
     setOpen(false);
@@ -928,6 +928,7 @@ export default function App() {
       <Projects />
       <Featured />
       <Experience />
+      <Awards />
       <Contact />
     </div>
   );
