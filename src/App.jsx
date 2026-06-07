@@ -851,8 +851,7 @@ function Contact() {
     setSending(true);
     // EmailJS integration — replace with your EmailJS service/template IDs
     try {
-      // await emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form, "YOUR_PUBLIC_KEY");
-      await new Promise(r => setTimeout(r, 1000)); // simulate send
+      await emailjs.send("service_q16i6of", "template_nye1hti", form, "oJrkr7vUsh06flwvr");
       setSent(true);
     } catch(e) {
       alert("Something went wrong. Please email directly: awahmichaelfx@gmail.com");
