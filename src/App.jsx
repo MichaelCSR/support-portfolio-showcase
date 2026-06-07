@@ -840,6 +840,47 @@ function Experience() {
   );
 }
 
+// ── Awards & Certifications ────────────────────────────────────────────
+function Awards() {
+  const items = [
+    { type: "Certification", title: "Zendesk Support Administrator", org: "Zendesk", year: "2022", desc: "Certified in ticket management, workflow automation, and helpdesk administration." },
+    { type: "Certification", title: "HubSpot Service Hub Software", org: "HubSpot Academy", year: "2021", desc: "CRM-based customer service, knowledge base, and support analytics." },
+    { type: "Certification", title: "Salesforce Service Cloud Consultant", org: "Salesforce", year: "2023", desc: "Case management, omni-channel support, and service console configuration." },
+    { type: "Award", title: "Top Performer — Q3 2022", org: "Jumia Cameroon", year: "2022", desc: "Recognized for highest customer satisfaction score and lowest average resolution time." },
+  ];
+
+  return (
+    <section id="awards" style={{ background: "#FAFAF8", padding: "100px 0 80px" }}>
+      <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 2rem" }}>
+        <Reveal><div style={{ fontSize: "0.72rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "#5a6e87", marginBottom: "0.4rem" }}>Credentials</div></Reveal>
+        <Reveal delay={80}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 500, color: "#1B2A41", marginBottom: "2.5rem", lineHeight: 1.15 }}>Awards &amp; Certifications</h2></Reveal>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.5rem" }}>
+          {items.map((item, i) => (
+            <Reveal key={item.title} delay={i * 80}>
+              <div style={{ background: "#fff", border: "1px solid rgba(27,42,65,0.08)", borderRadius: 4, padding: "1.8rem", height: "100%", boxShadow: "0 2px 10px rgba(27,42,65,0.04)" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "1rem" }}>
+                  <span style={{ background: item.type === "Award" ? "#FDF2F8" : "#E8F5EE", color: item.type === "Award" ? "#9D174D" : "#1a6634", fontSize: "0.65rem", letterSpacing: "0.1em", textTransform: "uppercase", padding: "3px 10px", borderRadius: 2, fontWeight: 600 }}>{item.type}</span>
+                  <span style={{ fontSize: "0.75rem", color: "#5a6e87" }}>{item.year}</span>
+                </div>
+                <div style={{ fontFamily: "Georgia, serif", fontSize: "1.2rem", fontWeight: 500, color: "#1B2A41", marginBottom: "0.35rem", lineHeight: 1.25 }}>{item.title}</div>
+                <div style={{ fontSize: "0.82rem", color: "#5a6e87", marginBottom: "0.8rem" }}>{item.org}</div>
+                <p style={{ fontSize: "0.86rem", lineHeight: 1.7, color: "#3a4a5c" }}>{item.desc}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+        <Reveal delay={400}>
+          <div style={{ marginTop: "2.5rem", padding: "1.2rem 1.5rem", borderRadius: 4, background: "rgba(234,215,195,0.2)", border: "1px dashed rgba(27,42,65,0.15)", textAlign: "center" }}>
+            <p style={{ fontSize: "0.85rem", color: "#5a6e87", lineHeight: 1.6, margin: 0 }}>
+              This section will be updated with actual award screenshots and certification badges as soon as they are available.
+            </p>
+          </div>
+        </Reveal>
+      </div>
+    </section>
+  );
+}
+
 // ── Contact ───────────────────────────────────────────────────────────
 function Contact() {
   const [form, setForm] = useState({ name:"", email:"", message:"" });
