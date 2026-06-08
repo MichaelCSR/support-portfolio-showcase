@@ -861,9 +861,15 @@ function Contact() {
   const handleSubmit = async () => {
     if (!form.name || !form.email || !form.message) return;
     setSending(true);
-    // EmailJS integration — replace with your EmailJS service/template IDs
+    // EmailJS credentials sourced from environment variables (VITE_EMAILJS_*)
     try {
-      await emailjs.send("service_q16i6of", "template_nye1hti", form, "oJrkr7vUsh06flwvr");
+      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+      if (!serviceId || !templateId || !publicKey) {
+        throw new Error("EmailJS configuration missing");
+      }
+      await emailjs.send(serviceId, templateId, form, publicKey);
       setSent(true);
     } catch(e) {
       alert("Something went wrong. Please email directly: awahmichaelfx@gmail.com");
