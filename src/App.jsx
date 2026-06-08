@@ -588,7 +588,7 @@ function Hero() {
             fontSize: "0.7rem", letterSpacing: "0.14em", textTransform: "uppercase",
             padding: "5px 15px", borderRadius: 2, marginBottom: "1.8rem", width: "fit-content",
           }}>Customer Support Specialist</div>
-          <h1 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(3rem,5.5vw,5.5rem)", fontWeight: 500, color: "#fff", lineHeight: 1.0, margin: "0 0 0.4rem" }}>Awah<br/>Michael</h1>
+          <h1 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(3rem,5.5vw,5.5rem)", fontWeight: 500, color: "#fff", lineHeight: 1.0, margin: "0 0 0.4rem", whiteSpace: "nowrap" }}>Awah Michael</h1>
           <p style={{ fontFamily: "Georgia, serif", fontSize: "clamp(1.1rem,2vw,1.75rem)", color: "#EAD7C3", margin: "0 0 1.8rem", opacity: 0.82 }}>Remote Support · 3+ Years</p>
           <p style={{ color: "rgba(234,215,195,0.65)", fontSize: "0.92rem", lineHeight: 1.85, maxWidth: 440, margin: "0 0 2.2rem" }}>
             Turning tricky situations into great days for users. Bilingual (EN/FR), CRM-proficient, and driven by real human connections — not just closed tickets.
