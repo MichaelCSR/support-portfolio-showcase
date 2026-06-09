@@ -850,6 +850,21 @@ function Awards() {
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 2rem" }}>
         <Reveal><div style={{ fontSize: "0.72rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "#5a6e87", marginBottom: "0.4rem" }}>Credentials</div></Reveal>
         <Reveal delay={80}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 500, color: "#1B2A41", marginBottom: "2.5rem", lineHeight: 1.15 }}>Awards &amp; Certifications</h2></Reveal>
+        <Reveal delay={140}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "2rem", justifyContent: "center", alignItems: "stretch" }}>
+            {[
+              { title: "Certified Customer Support Professional", src: ccspCert.url },
+              { title: "Introduction to CRM with HubSpot", src: hubspotCert.url },
+            ].map((c) => (
+              <div key={c.title} style={{ flex: "1 1 320px", maxWidth: 480, display: "flex", flexDirection: "column", textAlign: "center" }}>
+                <h3 style={{ fontFamily: "Georgia, serif", fontSize: "1.1rem", fontWeight: 500, color: "#1B2A41", marginBottom: "1rem", lineHeight: 1.3 }}>{c.title}</h3>
+                <div style={{ aspectRatio: "4 / 3", background: "#fff", border: "1px solid rgba(27,42,65,0.08)", borderRadius: 4, overflow: "hidden", display: "flex" }}>
+                  <img src={c.src} alt={c.title} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </Reveal>
       </div>
     </section>
   );
