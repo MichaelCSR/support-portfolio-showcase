@@ -900,7 +900,7 @@ function Contact() {
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 2rem", width: "100%" }}>
         <Reveal><div style={{ fontSize: "0.72rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "rgba(234,215,195,0.45)", marginBottom: "0.4rem" }}>Get In Touch</div></Reveal>
         <Reveal delay={80}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2.5rem,5vw,4.5rem)", fontWeight: 500, color: "#fff", lineHeight: 1.08, marginBottom: "0.9rem", whiteSpace: "nowrap" }}>Let's work together</h2></Reveal>
-        <Reveal delay={120}><p style={{ color: "rgba(234,215,195,0.6)", fontSize: "0.94rem", maxWidth: 460, marginBottom: "2.8rem", lineHeight: 1.75 }}>Open to remote Customer Support roles, CRM specialist positions, and collaborative opportunities. Fluent in English and French.</p></Reveal>
+        <Reveal delay={120}><p style={{ color: "rgba(234,215,195,0.6)", fontSize: "0.94rem", maxWidth: 460, marginBottom: "2.8rem", lineHeight: 1.75 }}>Open to Remote Customer Support & Operations Roles. Bilingual (English & French).</p></Reveal>
 
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "start" }}>
           <Reveal delay={160}>
