@@ -634,8 +634,8 @@ function About() {
         <Reveal delay={100}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 500, color: "#1B2A41", marginBottom: "2.5rem", lineHeight: 1.15 }}>People-first support,<br/>backed by data</h2></Reveal>
         <div style={{ display: "grid", gridTemplateColumns: "1.3fr 1fr", gap: "4rem" }}>
           <Reveal delay={150}>
-            <p style={{ fontSize: "0.97rem", lineHeight: 1.85, color: "#3a4a5c", marginBottom: "1rem" }}>I'm a remote Customer Support Specialist who genuinely loves turning tricky situations into great days for users. Over the past 3 years, I've navigated fast-paced support settings by focusing on real human connections rather than just closing tickets.</p>
-            <p style={{ fontSize: "0.97rem", lineHeight: 1.85, color: "#3a4a5c" }}>I use tools like Zendesk, HubSpot and Salesforce to make people feel heard via phone, e-mail, live chat and social media, and I love digging into data to help my team build better customer experiences. Results-driven and bilingual — I jump smoothly between English and French.</p>
+            <p style={{ fontSize: "0.97rem", lineHeight: 1.85, color: "#3a4a5c", marginBottom: "1rem" }}>I am a bilingual (English/French) remote Customer Support Specialist with 3 years of experience transforming complex user issues into positive experiences. Instead of just closing tickets, I focus on building authentic human connections across phone, email, live chat, and social media channels.</p>
+            <p style={{ fontSize: "0.97rem", lineHeight: 1.85, color: "#3a4a5c" }}>I leverage data insights to help teams optimize workflows, while utilizing industry-standard tools like Zendesk, HubSpot, and Salesforce to ensure every customer feels heard and valued.</p>
             <div style={{ fontSize: "0.7rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "#5a6e87", margin: "2rem 0 0.8rem" }}>Core Competencies</div>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
               {SKILLS.map(s => <span key={s} style={{ background: "#1B2A41", color: "#EAD7C3", padding: "5px 13px", borderRadius: 2, fontSize: "0.77rem" }}>{s}</span>)}
@@ -899,8 +899,8 @@ function Contact() {
     <section id="contact" style={{ background: "#1B2A41", padding: "100px 0 80px", minHeight: "80vh", display: "flex", alignItems: "center" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 2rem", width: "100%" }}>
         <Reveal><div style={{ fontSize: "0.72rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "rgba(234,215,195,0.45)", marginBottom: "0.4rem" }}>Get In Touch</div></Reveal>
-        <Reveal delay={80}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2.5rem,5vw,4.5rem)", fontWeight: 500, color: "#fff", lineHeight: 1.08, marginBottom: "0.9rem" }}>Let's work<br/>together</h2></Reveal>
-        <Reveal delay={120}><p style={{ color: "rgba(234,215,195,0.6)", fontSize: "0.94rem", maxWidth: 460, marginBottom: "2.8rem", lineHeight: 1.75 }}>Open to remote Customer Support roles, CRM specialist positions, and collaborative opportunities. Fluent in English and French.</p></Reveal>
+        <Reveal delay={80}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2.5rem,5vw,4.5rem)", fontWeight: 500, color: "#fff", lineHeight: 1.08, marginBottom: "0.9rem", whiteSpace: "nowrap" }}>Let's work together</h2></Reveal>
+        <Reveal delay={120}><p style={{ color: "rgba(234,215,195,0.6)", fontSize: "0.94rem", maxWidth: 460, marginBottom: "2.8rem", lineHeight: 1.75 }}>Open to Remote Customer Support & Operations Roles. Bilingual (English & French).</p></Reveal>
 
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "start" }}>
           <Reveal delay={160}>
