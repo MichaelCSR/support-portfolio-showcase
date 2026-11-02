@@ -624,7 +624,7 @@ function Hero() {
 
 // ── About ─────────────────────────────────────────────────────────────
 const SKILLS = ["Active Listening & Empathy","Conflict Resolution","Verbal & Written Communication","Technical Troubleshooting","Issue Escalation","CRM & Ticketing Systems","Time Management","Multitasking Under Pressure","Attention to Detail","Remote Collaboration"];
-const STATS = [["3+","Years in Customer Support"],["20–40","Inquiries handled daily"],["90%","Order accuracy rate"],["10%","Reduction in repeat complaints"],["2","Languages: English & French"]];
+const STATS = [["3+","Years in Customer Support"],["20 to 40","Inquiries handled daily"],["90%","Order accuracy rate"],["10%","Reduction in repeat complaints"],["2","Languages: English & French"]];
 
 function About() {
   return (
@@ -815,12 +815,12 @@ function Experience() {
         <Reveal delay={80}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 500, color: "#1B2A41", marginBottom: "2.5rem", lineHeight: 1.15 }}>Experience & Education</h2></Reveal>
         <Reveal delay={120}>
           <div style={{ display: "grid", gridTemplateColumns: "175px 1fr", gap: "2.8rem", paddingBottom: "2.2rem", marginBottom: "2.2rem", borderBottom: "1px solid rgba(27,42,65,0.1)" }}>
-            <div style={{ fontSize: "0.79rem", color: "#5a6e87", paddingTop: "0.25rem" }}>Nov 2019 – Jun 2023</div>
+            <div style={{ fontSize: "0.79rem", color: "#5a6e87", paddingTop: "0.25rem" }}>Nov 2019 to Jun 2023</div>
             <div>
               <div style={{ fontFamily: "Georgia, serif", fontSize: "1.45rem", fontWeight: 500, color: "#1B2A41", marginBottom: "0.2rem" }}>Jumia Cameroon</div>
               <div style={{ fontSize: "0.82rem", color: "#5a6e87", marginBottom: "0.9rem" }}>Customer Service Representative</div>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.35rem" }}>
-                {["Responded to 20–40 customer inquiries daily across phone, email, live chat, and social media, providing clear and helpful assistance","Followed and refined communication scripts to maintain consistent professionalism","Assisted customers with order processing, returns, and exchanges, maintaining an accuracy rate of approximately 90%","Contributed to a roughly 10% reduction in repeat complaints through effective issue identification and resolution","Provided product information and guidance to support customer satisfaction and occasional upsell opportunities","Managed customer complaints with empathy, aiming for first contact resolution in the majority of cases","Consistently met or exceeded team quality and productivity targets","Collaborated effectively with remote team members using Zoom, Slack, and Google Meet","Maintained detailed and accurate CRM records using HubSpot and Zendesk","Participated regularly in training sessions to improve skills and support team performance","Shared practical feedback to help improve customer service processes and overall experience"].map(b => (
+                {["Responded to 20 to 40 customer inquiries daily across phone, email, live chat, and social media, providing clear and helpful assistance","Followed and refined communication scripts to maintain consistent professionalism","Assisted customers with order processing, returns, and exchanges, maintaining an accuracy rate of approximately 90%","Contributed to a roughly 10% reduction in repeat complaints through effective issue identification and resolution","Provided product information and guidance to support customer satisfaction and occasional upsell opportunities","Managed customer complaints with empathy, aiming for first contact resolution in the majority of cases","Consistently met or exceeded team quality and productivity targets","Collaborated effectively with remote team members using Zoom, Slack, and Google Meet","Maintained detailed and accurate CRM records using HubSpot and Zendesk","Participated regularly in training sessions to improve skills and support team performance","Shared practical feedback to help improve customer service processes and overall experience"].map(b => (
                   <li key={b} style={{ fontSize: "0.87rem", color: "#3a4a5c", lineHeight: 1.65, paddingLeft: "1.4rem", position: "relative" }}>
                     <span style={{ position: "absolute", left: "0.3rem", top: 0, color: "#1B2A41", fontWeight: 700 }}>•</span>{b}
                   </li>
