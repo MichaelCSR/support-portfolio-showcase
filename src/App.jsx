@@ -132,7 +132,7 @@ const SVG_ARCH = `<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" 
   <text x="566" y="283" text-anchor="middle" fill="#166534" font-size="9">Churn Risk Workflows</text>
   
   <rect x="491" y="300" width="151" height="28" fill="#DCFCE7" rx="5" stroke="#86EFAC" stroke-width="1"/>
-  <text x="566" y="318" text-anchor="middle" fill="#166534" font-size="9">Re-engagement Sequences</text>
+  <text x="566" y="318" text-anchor="middle" fill="#166534" font-size="9">Re engagement Sequences</text>
   
   <rect x="491" y="335" width="151" height="28" fill="#DCFCE7" rx="5" stroke="#86EFAC" stroke-width="1"/>
   <text x="566" y="353" text-anchor="middle" fill="#166534" font-size="9">NPS Tracking</text>
@@ -202,7 +202,7 @@ const SVG_FLOW = `<svg viewBox="0 0 860 620" xmlns="http://www.w3.org/2000/svg" 
   <!-- Auto-categorization -->
   <rect x="300" y="142" width="260" height="44" fill="#DBEAFE" rx="8" stroke="#93C5FD" stroke-width="1.5"/>
   <text x="430" y="160" text-anchor="middle" fill="#1E40AF" font-size="10" font-weight="bold">ZENDESK TRIGGER FIRES</text>
-  <text x="430" y="176" text-anchor="middle" fill="#1E40AF" font-size="9">Auto-tags: Category / Channel / Language</text>
+  <text x="430" y="176" text-anchor="middle" fill="#1E40AF" font-size="9">Auto tags: Category / Channel / Language</text>
   <line x1="430" y1="186" x2="430" y2="214" stroke="#374151" stroke-width="2" marker-end="url(#arr)"/>
 
   <!-- Priority Diamond -->
@@ -284,7 +284,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="106" width="112" height="22" fill="#D1FAE5" rx="10"/>
     <text x="408" y="121" text-anchor="middle" fill="#059669" font-size="9" font-weight="bold">LOW</text>
     <text x="537" y="122" text-anchor="middle" fill="#374151" font-size="9">24 hr</text>
-    <text x="723" y="122" text-anchor="middle" fill="#374151" font-size="9">Tier 1 / Bot + Self-Service</text>
+    <text x="723" y="122" text-anchor="middle" fill="#374151" font-size="9">Tier 1 / Bot + Self Service</text>
     
     <rect x="20" y="138" width="820" height="36" fill="#F9FAFB" rx="3"/>
     <text x="110" y="160" text-anchor="middle" fill="#111827" font-size="9">💳 Billing Issue</text>
@@ -365,7 +365,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="448" width="112" height="22" fill="#D1FAE5" rx="10"/>
     <text x="408" y="463" text-anchor="middle" fill="#059669" font-size="9" font-weight="bold">LOW</text>
     <text x="537" y="464" text-anchor="middle" fill="#374151" font-size="9">24 hr</text>
-    <text x="723" y="464" text-anchor="middle" fill="#374151" font-size="9">Tier 1: Self-Service / Bot</text>
+    <text x="723" y="464" text-anchor="middle" fill="#374151" font-size="9">Tier 1: Self Service / Bot</text>
     
 
   <!-- Bottom border -->
