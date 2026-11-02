@@ -45,7 +45,7 @@ const SVG_ARCH = `<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" 
   <!-- Title -->
   <rect x="0" y="0" width="900" height="52" fill="#1E3A5F" rx="12"/>
   <rect x="0" y="40" width="900" height="12" fill="#1E3A5F"/>
-  <text x="450" y="32" text-anchor="middle" fill="white" font-size="16" font-weight="bold">JUMIA CX PLATFORM — CROSS-SYSTEM TICKET FLOW ARCHITECTURE</text>
+  <text x="450" y="32" text-anchor="middle" fill="white" font-size="16" font-weight="bold">JUMIA CX PLATFORM, CROSS SYSTEM TICKET FLOW ARCHITECTURE</text>
 
   <!-- CUSTOMER CHANNELS BOX -->
   <rect x="20" y="75" width="160" height="420" fill="#EFF6FF" rx="10" stroke="#BFDBFE" stroke-width="1.5"/>
@@ -192,7 +192,7 @@ const SVG_FLOW = `<svg viewBox="0 0 860 620" xmlns="http://www.w3.org/2000/svg" 
   <rect width="860" height="620" fill="#F8FAFC" rx="12"/>
   <rect x="0" y="0" width="860" height="50" fill="#1E3A5F" rx="12"/>
   <rect x="0" y="38" width="860" height="12" fill="#1E3A5F"/>
-  <text x="430" y="30" text-anchor="middle" fill="white" font-size="15" font-weight="bold">ZENDESK — INTELLIGENT TICKET ROUTING WORKFLOW</text>
+  <text x="430" y="30" text-anchor="middle" fill="white" font-size="15" font-weight="bold">ZENDESK: INTELLIGENT TICKET ROUTING WORKFLOW</text>
 
   <!-- START -->
   <ellipse cx="430" cy="88" rx="90" ry="24" fill="#2563EB" stroke="#1D4ED8" stroke-width="2"/>
@@ -215,7 +215,7 @@ const SVG_FLOW = `<svg viewBox="0 0 860 620" xmlns="http://www.w3.org/2000/svg" 
   <line x1="330" y1="260" x2="175" y2="340" stroke="#374151" stroke-width="2" marker-end="url(#arr)"/>
   <text x="240" y="298" text-anchor="middle" fill="#059669" font-size="9">LOW</text>
   <rect x="80" y="342" width="190" height="54" fill="#D1FAE5" rx="8" stroke="#6EE7B7" stroke-width="1.5"/>
-  <text x="175" y="362" text-anchor="middle" fill="#065F46" font-size="10" font-weight="bold">TIER 1 — SELF SERVICE</text>
+  <text x="175" y="362" text-anchor="middle" fill="#065F46" font-size="10" font-weight="bold">TIER 1: SELF SERVICE</text>
   <text x="175" y="376" text-anchor="middle" fill="#065F46" font-size="9">FAQ Bot / Help Center</text>
   <text x="175" y="389" text-anchor="middle" fill="#065F46" font-size="9">SLA: 24hr response</text>
 
@@ -223,7 +223,7 @@ const SVG_FLOW = `<svg viewBox="0 0 860 620" xmlns="http://www.w3.org/2000/svg" 
   <line x1="430" y1="302" x2="430" y2="342" stroke="#374151" stroke-width="2" marker-end="url(#arr)"/>
   <text x="447" y="328" fill="#EA580C" font-size="9">MED</text>
   <rect x="330" y="342" width="200" height="54" fill="#FFEDD5" rx="8" stroke="#FDBA74" stroke-width="1.5"/>
-  <text x="430" y="362" text-anchor="middle" fill="#9A3412" font-size="10" font-weight="bold">TIER 2 — AGENT QUEUE</text>
+  <text x="430" y="362" text-anchor="middle" fill="#9A3412" font-size="10" font-weight="bold">TIER 2: AGENT QUEUE</text>
   <text x="430" y="376" text-anchor="middle" fill="#9A3412" font-size="9">Assigned to specialist</text>
   <text x="430" y="389" text-anchor="middle" fill="#9A3412" font-size="9">SLA: 4hr first response</text>
 
@@ -231,7 +231,7 @@ const SVG_FLOW = `<svg viewBox="0 0 860 620" xmlns="http://www.w3.org/2000/svg" 
   <line x1="530" y1="260" x2="685" y2="340" stroke="#374151" stroke-width="2" marker-end="url(#arr)"/>
   <text x="620" y="298" text-anchor="middle" fill="#DC2626" font-size="9">URGENT</text>
   <rect x="590" y="342" width="190" height="54" fill="#FEE2E2" rx="8" stroke="#FCA5A5" stroke-width="1.5"/>
-  <text x="685" y="362" text-anchor="middle" fill="#991B1B" font-size="10" font-weight="bold">TIER 3 — ESCALATION</text>
+  <text x="685" y="362" text-anchor="middle" fill="#991B1B" font-size="10" font-weight="bold">TIER 3: ESCALATION</text>
   <text x="685" y="376" text-anchor="middle" fill="#991B1B" font-size="9">Senior Agent + Manager</text>
   <text x="685" y="389" text-anchor="middle" fill="#991B1B" font-size="9">SLA: 1hr first response</text>
 
@@ -261,7 +261,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
   <rect width="860" height="500" fill="#F8FAFC" rx="12"/>
   <rect x="0" y="0" width="860" height="50" fill="#1E3A5F" rx="12"/>
   <rect x="0" y="38" width="860" height="12" fill="#1E3A5F"/>
-  <text x="430" y="30" text-anchor="middle" fill="white" font-size="15" font-weight="bold">JUMIA CX — TICKET ISSUE TYPE MATRIX &amp; ROUTING RULES</text>
+  <text x="430" y="30" text-anchor="middle" fill="white" font-size="15" font-weight="bold">JUMIA CX: TICKET ISSUE TYPE MATRIX &amp; ROUTING RULES</text>
 
   <!-- Header row -->
   <rect x="20" y="64" width="180" height="34" fill="#374151" rx="4"/>
@@ -293,7 +293,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="144" width="112" height="22" fill="#FEE2E2" rx="10"/>
     <text x="408" y="159" text-anchor="middle" fill="#EA580C" font-size="9" font-weight="bold">HIGH</text>
     <text x="537" y="160" text-anchor="middle" fill="#374151" font-size="9">2 hr</text>
-    <text x="723" y="160" text-anchor="middle" fill="#374151" font-size="9">Tier 2 – Billing Specialist</text>
+    <text x="723" y="160" text-anchor="middle" fill="#374151" font-size="9">Tier 2: Billing Specialist</text>
     
     <rect x="20" y="176" width="820" height="36" fill="white" rx="3"/>
     <text x="110" y="198" text-anchor="middle" fill="#111827" font-size="9">🚚 Delayed Delivery</text>
@@ -302,7 +302,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="182" width="112" height="22" fill="#FFEDD5" rx="10"/>
     <text x="408" y="197" text-anchor="middle" fill="#D97706" font-size="9" font-weight="bold">MEDIUM</text>
     <text x="537" y="198" text-anchor="middle" fill="#374151" font-size="9">4 hr</text>
-    <text x="723" y="198" text-anchor="middle" fill="#374151" font-size="9">Tier 2 – Logistics Team</text>
+    <text x="723" y="198" text-anchor="middle" fill="#374151" font-size="9">Tier 2: Logistics Team</text>
     
     <rect x="20" y="214" width="820" height="36" fill="#F9FAFB" rx="3"/>
     <text x="110" y="236" text-anchor="middle" fill="#111827" font-size="9">⚠️ Double Debit</text>
@@ -311,7 +311,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="220" width="112" height="22" fill="#FEE2E2" rx="10"/>
     <text x="408" y="235" text-anchor="middle" fill="#DC2626" font-size="9" font-weight="bold">URGENT</text>
     <text x="537" y="236" text-anchor="middle" fill="#374151" font-size="9">1 hr</text>
-    <text x="723" y="236" text-anchor="middle" fill="#374151" font-size="9">Tier 3 – Senior + Finance</text>
+    <text x="723" y="236" text-anchor="middle" fill="#374151" font-size="9">Tier 3: Senior + Finance</text>
     
     <rect x="20" y="252" width="820" height="36" fill="white" rx="3"/>
     <text x="110" y="274" text-anchor="middle" fill="#111827" font-size="9">🎟️ Invalid Coupon Code</text>
@@ -320,7 +320,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="258" width="112" height="22" fill="#D1FAE5" rx="10"/>
     <text x="408" y="273" text-anchor="middle" fill="#059669" font-size="9" font-weight="bold">LOW</text>
     <text x="537" y="274" text-anchor="middle" fill="#374151" font-size="9">24 hr</text>
-    <text x="723" y="274" text-anchor="middle" fill="#374151" font-size="9">Tier 1 – Promo Bot</text>
+    <text x="723" y="274" text-anchor="middle" fill="#374151" font-size="9">Tier 1: Promo Bot</text>
     
     <rect x="20" y="290" width="820" height="36" fill="#F9FAFB" rx="3"/>
     <text x="110" y="312" text-anchor="middle" fill="#111827" font-size="9">🐛 App/Platform Bug</text>
@@ -329,7 +329,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="296" width="112" height="22" fill="#FEE2E2" rx="10"/>
     <text x="408" y="311" text-anchor="middle" fill="#EA580C" font-size="9" font-weight="bold">HIGH</text>
     <text x="537" y="312" text-anchor="middle" fill="#374151" font-size="9">2 hr</text>
-    <text x="723" y="312" text-anchor="middle" fill="#374151" font-size="9">Tier 3 – Dev Escalation</text>
+    <text x="723" y="312" text-anchor="middle" fill="#374151" font-size="9">Tier 3: Dev Escalation</text>
     
     <rect x="20" y="328" width="820" height="36" fill="white" rx="3"/>
     <text x="110" y="350" text-anchor="middle" fill="#111827" font-size="9">👤 Unattended Customer</text>
@@ -338,7 +338,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="334" width="112" height="22" fill="#FEE2E2" rx="10"/>
     <text x="408" y="349" text-anchor="middle" fill="#DC2626" font-size="9" font-weight="bold">URGENT</text>
     <text x="537" y="350" text-anchor="middle" fill="#374151" font-size="9">1 hr</text>
-    <text x="723" y="350" text-anchor="middle" fill="#374151" font-size="9">Tier 3 – Manager Alert</text>
+    <text x="723" y="350" text-anchor="middle" fill="#374151" font-size="9">Tier 3: Manager Alert</text>
     
     <rect x="20" y="366" width="820" height="36" fill="#F9FAFB" rx="3"/>
     <text x="110" y="388" text-anchor="middle" fill="#111827" font-size="9">📦 Wrong Order Received</text>
@@ -347,7 +347,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="372" width="112" height="22" fill="#FFEDD5" rx="10"/>
     <text x="408" y="387" text-anchor="middle" fill="#D97706" font-size="9" font-weight="bold">MEDIUM</text>
     <text x="537" y="388" text-anchor="middle" fill="#374151" font-size="9">4 hr</text>
-    <text x="723" y="388" text-anchor="middle" fill="#374151" font-size="9">Tier 2 – Fulfillment Team</text>
+    <text x="723" y="388" text-anchor="middle" fill="#374151" font-size="9">Tier 2: Fulfillment Team</text>
     
     <rect x="20" y="404" width="820" height="36" fill="white" rx="3"/>
     <text x="110" y="426" text-anchor="middle" fill="#111827" font-size="9">📦 Damaged Order</text>
@@ -356,7 +356,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="410" width="112" height="22" fill="#FEE2E2" rx="10"/>
     <text x="408" y="425" text-anchor="middle" fill="#EA580C" font-size="9" font-weight="bold">HIGH</text>
     <text x="537" y="426" text-anchor="middle" fill="#374151" font-size="9">2 hr</text>
-    <text x="723" y="426" text-anchor="middle" fill="#374151" font-size="9">Tier 2 – Returns Specialist</text>
+    <text x="723" y="426" text-anchor="middle" fill="#374151" font-size="9">Tier 2: Returns Specialist</text>
     
     <rect x="20" y="442" width="820" height="36" fill="#F9FAFB" rx="3"/>
     <text x="110" y="464" text-anchor="middle" fill="#111827" font-size="9">ℹ️ General Enquiry</text>
@@ -365,7 +365,7 @@ const SVG_MATRIX = `<svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg
     <rect x="352" y="448" width="112" height="22" fill="#D1FAE5" rx="10"/>
     <text x="408" y="463" text-anchor="middle" fill="#059669" font-size="9" font-weight="bold">LOW</text>
     <text x="537" y="464" text-anchor="middle" fill="#374151" font-size="9">24 hr</text>
-    <text x="723" y="464" text-anchor="middle" fill="#374151" font-size="9">Tier 1 – Self-Service / Bot</text>
+    <text x="723" y="464" text-anchor="middle" fill="#374151" font-size="9">Tier 1: Self-Service / Bot</text>
     
 
   <!-- Bottom border -->
@@ -375,7 +375,7 @@ const SVG_KPI = `<svg viewBox="0 0 860 480" xmlns="http://www.w3.org/2000/svg" f
   <rect width="860" height="480" fill="#F8FAFC" rx="12"/>
   <rect x="0" y="0" width="860" height="50" fill="#1E3A5F" rx="12"/>
   <rect x="0" y="38" width="860" height="12" fill="#1E3A5F"/>
-  <text x="430" y="30" text-anchor="middle" fill="white" font-size="15" font-weight="bold">PROJECT SUCCESS METRICS — BEFORE vs AFTER DASHBOARD</text>
+  <text x="430" y="30" text-anchor="middle" fill="white" font-size="15" font-weight="bold">PROJECT SUCCESS METRICS: BEFORE vs AFTER DASHBOARD</text>
 
   <!-- KPI Cards Row 1 -->
   
@@ -465,7 +465,7 @@ const SVG_KPI = `<svg viewBox="0 0 860 480" xmlns="http://www.w3.org/2000/svg" f
 
   <!-- Simple bar chart for ticket volume resolution speed -->
   <rect x="20" y="340" width="820" height="120" fill="white" rx="10" stroke="#E5E7EB" stroke-width="1.5"/>
-  <text x="430" y="360" text-anchor="middle" fill="#374151" font-size="11" font-weight="bold">Average Resolution Time by Issue Type (Hours) — AFTER Implementation</text>
+  <text x="430" y="360" text-anchor="middle" fill="#374151" font-size="11" font-weight="bold">Average Resolution Time by Issue Type (Hours), AFTER Implementation</text>
   
     <rect x="40" y="428" width="76" height="2" fill="#059669" rx="3" opacity="0.85"/>
     <text x="78" y="423" text-anchor="middle" fill="#059669" font-size="9" font-weight="bold">0.5h</text>
@@ -631,11 +631,11 @@ function About() {
     <section id="about" style={{ background: "#F5EDE3", padding: "100px 0 80px" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 2rem" }}>
         <Reveal><div style={{ fontSize: "0.72rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "#5a6e87", marginBottom: "0.4rem" }}>About Me</div></Reveal>
-        <Reveal delay={100}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 500, color: "#1B2A41", marginBottom: "2.5rem", lineHeight: 1.15 }}>People-first support,<br/>backed by data</h2></Reveal>
+        <Reveal delay={100}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 500, color: "#1B2A41", marginBottom: "2.5rem", lineHeight: 1.15 }}>People first support,<br/>backed by data</h2></Reveal>
         <div style={{ display: "grid", gridTemplateColumns: "1.3fr 1fr", gap: "4rem" }}>
           <Reveal delay={150}>
             <p style={{ fontSize: "0.97rem", lineHeight: 1.85, color: "#3a4a5c", marginBottom: "1rem" }}>I am a bilingual (English/French) remote Customer Support Specialist with 3 years of experience transforming complex user issues into positive experiences. Instead of just closing tickets, I focus on building authentic human connections across phone, email, live chat, and social media channels.</p>
-            <p style={{ fontSize: "0.97rem", lineHeight: 1.85, color: "#3a4a5c" }}>I leverage data insights to help teams optimize workflows, while utilizing industry-standard tools like Zendesk, HubSpot, and Salesforce to ensure every customer feels heard and valued.</p>
+            <p style={{ fontSize: "0.97rem", lineHeight: 1.85, color: "#3a4a5c" }}>I leverage data insights to help teams optimize workflows, while utilizing industry standard tools like Zendesk, HubSpot, and Salesforce to ensure every customer feels heard and valued.</p>
             <div style={{ fontSize: "0.7rem", letterSpacing: "0.12em", textTransform: "uppercase", color: "#5a6e87", margin: "2rem 0 0.8rem" }}>Core Competencies</div>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
               {SKILLS.map(s => <span key={s} style={{ background: "#1B2A41", color: "#EAD7C3", padding: "5px 13px", borderRadius: 2, fontSize: "0.77rem" }}>{s}</span>)}
@@ -731,19 +731,19 @@ function CaseStudy({ num, tool, title, subtitle, images, situation, approach, ou
 // ── Projects ─────────────────────────────────────────────────────────
 function Projects() {
   const cases = [
-    { num:"01", tool:"Zendesk", title:"Ticket Triage & Queue Management", subtitle:"Managing 10 support tickets across varying priority levels using structured triage and status tracking.", images:[IMGS.q1,IMGS.q2,IMGS.q3], situation:"10 incoming tickets spanning Technical Complaints, Delayed Deliveries, Account Access Problems, and Refund Requests required immediate triage and routing.", approach:"Categorized by urgency and type, applied priority labels, addressed High-priority Refund Requests first, and used Zendesk's filtering tools to maintain full queue visibility.", outcomes:["Structured triage applied","All 10 tickets categorized","Zero tickets missed"] },
-    { num:"02", tool:"Zendesk", title:"Delayed Order — Express Delivery Resolution", subtitle:"A customer paid for express delivery but received nothing after four days. Required immediate empathetic resolution.", images:[IMGS.d1,IMGS.d2], situation:"Customer ordered 4 days prior with express delivery and received nothing. Ticket tagged Negative sentiment, 'Order delivery is late'.", approach:"Investigated and found the package stuck at a distribution center. Proactively offered a replacement shipped overnight at no extra cost, or a full refund, with sincere apology and tracking ETA.", outcomes:["Ticket marked Solved","Replacement offered proactively","Empathy maintained"] },
-    { num:"03", tool:"Zendesk", title:"Password Reset — Macro-Assisted Resolution", subtitle:"Resolved a 'Forgot Password' request efficiently using Zendesk macros and a clear step-by-step guide.", images:[IMGS.p1,IMGS.p2,IMGS.p3], situation:"Customer unable to reset password. Ticket via email tagged 'Unable to reset password', Neutral sentiment.", approach:"Applied the 'Assistance With Resetting Your Password' macro delivering a structured reply: browser check, Spam folder check, and a 4-step reset guide. Offered manual account investigation as fallback.", outcomes:["Ticket marked Solved","Macro for consistency","4-step guide delivered"] },
-    { num:"04", tool:"Zendesk", title:"Technical Bug — Escalation Protocol", subtitle:"Identified a backend bug beyond standard scope and escalated with documented reasoning for the technical team.", images:[IMGS.tb], situation:"Feature not working (Negative sentiment). Standard troubleshooting failed, indicating a backend bug beyond support-level resolution.", approach:"Logged an internal escalation note with three specific justifications: apparent backend bug, significant user frustration, and all standard fixes exhausted — requiring developer investigation of error logs.", outcomes:["Escalated with clear justification","Developer team informed","Protocol followed"] },
-    { num:"05", tool:"HubSpot", title:"Repeated Issue — Angry Customer Recovery", subtitle:"Managed a high-frustration customer who contacted support four times without resolution and threatened negative reviews.", images:[IMGS.e1,IMGS.e2,IMGS.e3], situation:"Tommy Cooper contacted support 4 times about the same unresolved issue and threatened negative reviews. High Priority, 'Waiting on us' — requiring immediate personal ownership.", approach:"Logged internal visibility note, then sent a personal recovery email: apologized for all prior failures, processed a full refund, activated the account, and credited $50 as goodwill compensation.", outcomes:["Refund processed immediately","$50 goodwill credit","Recovery achieved"] },
-    { num:"06", tool:"Salesforce", title:"CRM Lead Management & Pipeline Conversion", subtitle:"End-to-end lead creation, conversion, and opportunity tracking across multiple accounts using Salesforce Sales Cloud.", images:[IMGS.s1,IMGS.s2,IMGS.s3,IMGS.s4], situation:"Manage incoming leads from MJ Logistics, Sophia Beauty Store, and DS Tech Hub — from first contact through full CRM conversion.", approach:"Created and maintained accurate lead records, converted them into Accounts, Contacts, and Opportunities, and tracked pipeline stages from Qualify through Negotiate to Propose. Also authored Draft KB articles using Salesforce Service Knowledge.", outcomes:["3 leads created","4 opportunities tracked","3 KB articles authored","Full conversion done"] },
+    { num:"01", tool:"Zendesk", title:"Ticket Triage & Queue Management", subtitle:"Managing 10 support tickets across varying priority levels using structured triage and status tracking.", images:[IMGS.q1,IMGS.q2,IMGS.q3], situation:"10 incoming tickets spanning Technical Complaints, Delayed Deliveries, Account Access Problems, and Refund Requests required immediate triage and routing.", approach:"Categorized by urgency and type, applied priority labels, addressed High priority Refund Requests first, and used Zendesk's filtering tools to maintain full queue visibility.", outcomes:["Structured triage applied","All 10 tickets categorized","Zero tickets missed"] },
+    { num:"02", tool:"Zendesk", title:"Delayed Order: Express Delivery Resolution", subtitle:"A customer paid for express delivery but received nothing after four days. Required immediate empathetic resolution.", images:[IMGS.d1,IMGS.d2], situation:"Customer ordered 4 days prior with express delivery and received nothing. Ticket tagged Negative sentiment, 'Order delivery is late'.", approach:"Investigated and found the package stuck at a distribution center. Proactively offered a replacement shipped overnight at no extra cost, or a full refund, with sincere apology and tracking ETA.", outcomes:["Ticket marked Solved","Replacement offered proactively","Empathy maintained"] },
+    { num:"03", tool:"Zendesk", title:"Password Reset: Macro Assisted Resolution", subtitle:"Resolved a 'Forgot Password' request efficiently using Zendesk macros and a clear step by step guide.", images:[IMGS.p1,IMGS.p2,IMGS.p3], situation:"Customer unable to reset password. Ticket via email tagged 'Unable to reset password', Neutral sentiment.", approach:"Applied the 'Assistance With Resetting Your Password' macro delivering a structured reply: browser check, Spam folder check, and a 4 step reset guide. Offered manual account investigation as fallback.", outcomes:["Ticket marked Solved","Macro for consistency","4 step guide delivered"] },
+    { num:"04", tool:"Zendesk", title:"Technical Bug: Escalation Protocol", subtitle:"Identified a backend bug beyond standard scope and escalated with documented reasoning for the technical team.", images:[IMGS.tb], situation:"Feature not working (Negative sentiment). Standard troubleshooting failed, indicating a backend bug beyond support level resolution.", approach:"Logged an internal escalation note with three specific justifications: apparent backend bug, significant user frustration, and all standard fixes exhausted, requiring developer investigation of error logs.", outcomes:["Escalated with clear justification","Developer team informed","Protocol followed"] },
+    { num:"05", tool:"HubSpot", title:"Repeated Issue: Angry Customer Recovery", subtitle:"Managed a high frustration customer who contacted support four times without resolution and threatened negative reviews.", images:[IMGS.e1,IMGS.e2,IMGS.e3], situation:"Tommy Cooper contacted support 4 times about the same unresolved issue and threatened negative reviews. High Priority, 'Waiting on us', requiring immediate personal ownership.", approach:"Logged internal visibility note, then sent a personal recovery email: apologized for all prior failures, processed a full refund, activated the account, and credited $50 as goodwill compensation.", outcomes:["Refund processed immediately","$50 goodwill credit","Recovery achieved"] },
+    { num:"06", tool:"Salesforce", title:"CRM Lead Management & Pipeline Conversion", subtitle:"End to end lead creation, conversion, and opportunity tracking across multiple accounts using Salesforce Sales Cloud.", images:[IMGS.s1,IMGS.s2,IMGS.s3,IMGS.s4], situation:"Manage incoming leads from MJ Logistics, Sophia Beauty Store, and DS Tech Hub, from first contact through full CRM conversion.", approach:"Created and maintained accurate lead records, converted them into Accounts, Contacts, and Opportunities, and tracked pipeline stages from Qualify through Negotiate to Propose. Also authored Draft KB articles using Salesforce Service Knowledge.", outcomes:["3 leads created","4 opportunities tracked","3 KB articles authored","Full conversion done"] },
   ];
   return (
     <section id="projects" style={{ background: "#FAFAF8", padding: "100px 0 80px" }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 2rem" }}>
         <Reveal><div style={{ fontSize: "0.72rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "#5a6e87", marginBottom: "0.4rem" }}>Featured Projects</div></Reveal>
         <Reveal delay={80}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 500, color: "#1B2A41", marginBottom: "1rem", lineHeight: 1.15 }}>Case Studies</h2></Reveal>
-        <Reveal delay={120}><p style={{ fontSize: "0.96rem", lineHeight: 1.8, color: "#3a4a5c", maxWidth: 620, marginBottom: "4.5rem" }}>Real support scenarios handled across Zendesk, HubSpot, and Salesforce — demonstrating ticket management, escalation, CRM operations, and customer empathy in action.</p></Reveal>
+        <Reveal delay={120}><p style={{ fontSize: "0.96rem", lineHeight: 1.8, color: "#3a4a5c", maxWidth: 620, marginBottom: "4.5rem" }}>Real support scenarios handled across Zendesk, HubSpot, and Salesforce, demonstrating ticket management, escalation, CRM operations, and customer empathy in action.</p></Reveal>
         {cases.map((c, i) => <CaseStudy key={c.num} {...c} />)}
       </div>
     </section>
@@ -754,10 +754,10 @@ function Projects() {
 function Featured() {
   const [activeTab, setActiveTab] = useState(0);
   const tabs = [
-    { label: "Architecture", svg: SVG_ARCH, desc: "Full cross-platform architecture mapping how customer tickets flow from six inbound channels through Zendesk, sync with HubSpot, and feed into Salesforce." },
-    { label: "Routing Workflow", svg: SVG_FLOW, desc: "Every ticket is auto-tagged by Zendesk triggers, assessed for priority (Low/Med/Urgent), and dispatched to the correct tier — Self-Service, Agent Queue, or Escalation." },
+    { label: "Architecture", svg: SVG_ARCH, desc: "Full cross platform architecture mapping how customer tickets flow from six inbound channels through Zendesk, sync with HubSpot, and feed into Salesforce." },
+    { label: "Routing Workflow", svg: SVG_FLOW, desc: "Every ticket is auto tagged by Zendesk triggers, assessed for priority (Low/Med/Urgent), and dispatched to the correct tier: Self Service, Agent Queue, or Escalation." },
     { label: "Issue Matrix", svg: SVG_MATRIX, desc: "A detailed operational matrix mapping 10 distinct issue types to their category tags, priority levels, SLA targets, and routing destinations." },
-    { label: "KPI Dashboard", svg: SVG_KPI, desc: "Before-and-after performance dashboard showing measurable improvements: CSAT +26pp to 87%, Misrouting −90%, Response Time −89%, SLA Breach −91%." },
+    { label: "KPI Dashboard", svg: SVG_KPI, desc: "Before and after performance dashboard showing measurable improvements: CSAT +26pp to 87%, Misrouting −90%, Response Time −89%, SLA Breach −91%." },
   ];
   return (
     <section id="featured" style={{ background: "#F5EDE3", padding: "100px 0 80px" }}>
@@ -765,7 +765,7 @@ function Featured() {
         <Reveal><div style={{ fontSize: "0.72rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "#5a6e87", marginBottom: "0.4rem" }}>Major Case Study</div></Reveal>
         <Reveal delay={80}><h2 style={{ fontFamily: "Georgia, serif", fontSize: "clamp(2rem,4vw,3rem)", fontWeight: 500, color: "#1B2A41", marginBottom: "0.8rem", lineHeight: 1.15 }}>Jumia CX Transformation</h2></Reveal>
         <Reveal delay={120}>
-          <p style={{ fontSize: "0.96rem", lineHeight: 1.8, color: "#3a4a5c", maxWidth: 700, marginBottom: "1rem" }}>Cross-Platform CX Transformation: Zendesk × HubSpot × Salesforce</p>
+          <p style={{ fontSize: "0.96rem", lineHeight: 1.8, color: "#3a4a5c", maxWidth: 700, marginBottom: "1rem" }}>Cross Platform CX Transformation: Zendesk × HubSpot × Salesforce</p>
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: "2.5rem" }}>
             {["Zendesk","HubSpot","Salesforce","SLA Design","CRM Architecture","KPI Framework"].map(t => (
               <span key={t} style={{ background: "#1B2A41", color: "#EAD7C3", fontSize: "0.75rem", padding: "4px 12px", borderRadius: 2 }}>{t}</span>
@@ -820,7 +820,7 @@ function Experience() {
               <div style={{ fontFamily: "Georgia, serif", fontSize: "1.45rem", fontWeight: 500, color: "#1B2A41", marginBottom: "0.2rem" }}>Jumia Cameroon</div>
               <div style={{ fontSize: "0.82rem", color: "#5a6e87", marginBottom: "0.9rem" }}>Customer Service Representative</div>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.35rem" }}>
-                {["Responded to 20–40 customer inquiries daily across phone, email, live chat, and social media, providing clear and helpful assistance","Followed and refined communication scripts to maintain consistent professionalism","Assisted customers with order processing, returns, and exchanges, maintaining an accuracy rate of approximately 90%","Contributed to a roughly 10% reduction in repeat complaints through effective issue identification and resolution","Provided product information and guidance to support customer satisfaction and occasional upsell opportunities","Managed customer complaints with empathy, aiming for first-contact resolution in the majority of cases","Consistently met or exceeded team quality and productivity targets","Collaborated effectively with remote team members using Zoom, Slack, and Google Meet","Maintained detailed and accurate CRM records using HubSpot and Zendesk","Participated regularly in training sessions to improve skills and support team performance","Shared practical feedback to help improve customer service processes and overall experience"].map(b => (
+                {["Responded to 20–40 customer inquiries daily across phone, email, live chat, and social media, providing clear and helpful assistance","Followed and refined communication scripts to maintain consistent professionalism","Assisted customers with order processing, returns, and exchanges, maintaining an accuracy rate of approximately 90%","Contributed to a roughly 10% reduction in repeat complaints through effective issue identification and resolution","Provided product information and guidance to support customer satisfaction and occasional upsell opportunities","Managed customer complaints with empathy, aiming for first contact resolution in the majority of cases","Consistently met or exceeded team quality and productivity targets","Collaborated effectively with remote team members using Zoom, Slack, and Google Meet","Maintained detailed and accurate CRM records using HubSpot and Zendesk","Participated regularly in training sessions to improve skills and support team performance","Shared practical feedback to help improve customer service processes and overall experience"].map(b => (
                   <li key={b} style={{ fontSize: "0.87rem", color: "#3a4a5c", lineHeight: 1.65, paddingLeft: "1.4rem", position: "relative" }}>
                     <span style={{ position: "absolute", left: "0.3rem", top: 0, color: "#1B2A41", fontWeight: 700 }}>•</span>{b}
                   </li>
@@ -942,7 +942,7 @@ function Contact() {
           <div style={{ borderTop: "1px solid rgba(234,215,195,0.1)", paddingTop: "1.8rem", marginTop: "3rem", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "1rem" }}>
             <div style={{ fontFamily: "Georgia, serif", color: "rgba(234,215,195,0.3)", fontSize: "0.86rem" }}>Awah Michael · Customer Support Specialist · Douala, Cameroon</div>
             <div style={{ display: "flex", gap: "0.7rem" }}>
-              {["English — Native","French — Professional"].map(l => (
+              {["English, Native","French, Professional"].map(l => (
                 <span key={l} style={{ background: "rgba(234,215,195,0.07)", border: "1px solid rgba(234,215,195,0.12)", color: "rgba(234,215,195,0.52)", padding: "3px 11px", borderRadius: 2, fontSize: "0.7rem", letterSpacing: "0.07em" }}>{l}</span>
               ))}
             </div>
